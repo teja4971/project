@@ -1,0 +1,259 @@
+.firsthr{
+  margin: 0;
+  border: 0.5;
+}
+
+.navbar-brand{
+  padding: 0;
+  margin-right: 0;
+}
+.navbar{
+  padding-top: 0;
+  padding-bottom:2px;
+}
+.collapse{
+  padding-right: 90px;
+}
+.avengerslogo{
+	width:500px;
+}
+body {
+background-color:#000;
+color: #000;
+background-image:url(marvellogo.png);
+background-repeat: no-repeat;
+background-attachment:scroll;
+background-position: 80px 160px;;
+  background-size:90%;
+}
+
+h1{
+      font-family: 'Sacramento', cursive;
+			position:relative;
+		padding-left: 75px;
+			top:670px;
+}
+.box{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+	grid-row-gap:20px;
+	padding-left:95px;
+	padding-top: 0;
+transition: 0.5s;
+margin-top: 800px;
+}
+.doctorstrangem:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+.nowayhomem:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+.eternals:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+
+.shangchi:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+.blackwidowmovie:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+.farfromhome:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+.endgame:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+.captainmarvel:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+.antmanwasp:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+.infinitywar:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+.blackpanther:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+.rangrok:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+.homecoming:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+.gogv2:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+.doctorstrange:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+.civilwar:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+.antman:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+.ageofultron:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+.gog:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+.captainamerica:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+.darkworld:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+.ironman3:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+.avengers:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+.captainamerica1:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+.thor:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+.ironman2:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+.hulk:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+.ironman:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+
+@media (min-width:1050px) {
+  .box{
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+	}
+}
+@media (min-width:800px) and (max-width:1000px) {
+	.box{
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+@media (min-width:500px) and (max-width:600px ) {
+	.box{
+		grid-template-columns: 1fr 1fr;
+	}
+}
+@media (max-width:500px) {
+	.box{
+		grid-template-columns: 1fr;
+		align-items: center;
+  }
+}
+.global .social{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px;
+  padding-bottom: 0;
+  border-top: 1px solid #eee;
+  margin-top: 50px;
+}
+.global .social a{
+  font-size: 22px;
+  width: 45px;
+  height: 45px;
+  line-height: 39px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid #05ff05;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+  margin: 10px;
+  color: #fff;
+  opacity: 0.7;
+  transition: 0.3s ease-in-out;
+}
+.global .social a:hover{
+  opacity: 0.9;
+  box-shadow: 0 1px 3px 2px rgba(255, 255, 255, 0.9);
+}
+.global .copyright{
+  text-align: center;
+  padding-top: 24px;
+  font-weight: 500;
+  opacity: 0.8;
+  font-size: 16px;
+	color: white;
+}
+.global h6{
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+	color: white;
+}
+@media (max-width: 767px){
+	.social{
+      margin: 0 auto;
+    }
+}
+.global{
+		background-color:black;
+}

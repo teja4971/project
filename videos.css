@@ -1,0 +1,191 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.firsthr{
+  margin: 0;
+  border: 0.5;
+}
+.navbar-brand{
+  padding: 0;
+  margin-right: 0;
+}
+.navbar{
+  padding-top: 0;
+  padding-bottom:2px;
+}
+.collapse{
+  padding-right: 90px;
+}
+.firsthr{
+  margin: 0;
+  border: 0.5;
+}
+h1{
+      font-family: 'Sacramento', cursive;
+			position:relative;
+		padding-left: 75px;
+			top:780px;
+      padding: 60px;
+      color: white;
+      font-size: 44px;
+    }
+  .box{
+   display:grid;
+   grid-template-columns:1fr 1fr;
+   column-gap: 30px;
+   position: relative;
+   top:800px;
+   left: 0px;
+transition: 0.5s;
+
+  }
+
+  .pcivil{
+    margin-top: 65px;
+    padding-left: 30px;
+  }
+  .phulk{
+    margin-top: 65px;
+    padding-left: 30px;
+  }
+  .pthor{
+    margin-top: 65px;
+    padding-left: 30px;
+  }
+  .pCaptain{
+    margin-top: 65px;
+    padding-left: 30px;
+}
+.pironman{
+  margin-top: 65px;
+  padding-left: 30px;
+}
+.pinfinity{
+  margin-top: 25px;
+  padding-left: 30px;
+}
+.pSpiderMan{
+  margin-top: 65px;
+  padding-left: 30px;
+}
+.pwanda{
+  margin-top: 65px;
+  padding-left: 30px;
+}
+.pthree{
+  margin-top: 65px;
+  padding-left: 30px;
+}
+.pRAGNAROK{
+  margin-top: 65px;
+  padding-left: 30px;
+}
+.pThorvsHulk{
+  margin-top: 25px;
+  padding-left: 30px;
+}
+.video {
+  --c: red; /* the color */
+
+  color: #0000;
+  background:
+    linear-gradient(90deg,#fff 50%,var(--c) 0) calc(100% - var(--_p,0%))/200%,
+    linear-gradient(var(--c) 0 0) 0% 100%/var(--_p,0%) no-repeat,
+    var(--_c,#0000);
+  -webkit-background-clip: text,padding-box,padding-box;
+          background-clip: text,padding-box,padding-box;
+  transition: 0s ,color .5s,background-color .5s;
+
+}
+.video:hover {
+  color: #fff;
+  --_c: var(--c);
+  --_p: 100%;
+  transition: 0.5s,color 0s .5s,background-color 0s .5s;
+  transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+
+h3 {
+  font-family: system-ui, sans-serif;
+  font-size: 3rem;
+  margin:0;
+  cursor: pointer;
+  padding: 0 .1em;
+}
+  .content{
+font-family:arial;
+font-weight: bold;
+line-height:25px;
+  }
+
+.grid-box{
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-left: 50px;
+}
+body {
+background-color:#000;
+color: #efefef;
+background-image:url(marvelllogo2.png);
+background-repeat: no-repeat;
+background-attachment:scroll;
+background-position: 30px 100px;
+  background-height:60%;
+
+}
+.global .social{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px;
+  padding-bottom: 0;
+  border-top: 1px solid #eee;
+  margin-top: 50px;
+}
+.global .social a{
+  font-size: 22px;
+  width: 45px;
+  height: 45px;
+  line-height: 39px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid #05ff05;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+  margin: 10px;
+  color: #fff;
+  opacity: 0.7;
+  transition: 0.3s ease-in-out;
+}
+.global .social a:hover{
+  opacity: 0.9;
+  box-shadow: 0 1px 3px 2px rgba(255, 255, 255, 0.9);
+}
+.global .copyright{
+  text-align: center;
+  padding-top: 24px;
+  font-weight: 500;
+  opacity: 0.8;
+  font-size: 16px;
+	color: white;
+}
+.global h6{
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+	color: white;
+}
+@media (max-width: 767px){
+	.social{
+      margin: 0 auto;
+    }
+}
+.global{
+		background-color:black;
+    margin-top: 60%;
+}

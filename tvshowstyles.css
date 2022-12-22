@@ -1,0 +1,151 @@
+.firsthr{
+  margin: 0;
+  border: 0.5;
+}
+
+.navbar-brand{
+  padding: 0;
+  margin-right: 0;
+}
+.navbar{
+  padding-top: 0;
+  padding-bottom:2px;
+}
+.collapse{
+  padding-right: 90px;
+}
+body {
+background-color:#000;
+color: #000;
+background-image:url(marvellogo2.jpg);
+background-repeat: no-repeat;
+background-attachment:scroll;
+background-position: 100px 160px;
+  background-size:87%;
+}
+h1{
+      font-family: 'Sacramento', cursive;
+			position:relative;
+		padding-left: 75px;
+			top:730px;
+    }
+.box{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+	grid-row-gap:20px;
+	padding-left:95px;
+	padding-top: 0;
+transition: 0.5s;
+margin-top: 830px;
+}
+.msmarvel:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+
+.moonknight:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+.hawkeye:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+.whatif:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+.loki:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+.falcon:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+.wandavision:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+.legends:hover{
+	transform:scale(1.02);
+box-shadow: 2px 2px 2px ;
+z-index: 2;
+}
+@media (min-width:1050px) {
+  .box{
+		grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
+	}
+}
+@media (min-width:800px) and (max-width:1000px) {
+	.box{
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+}
+@media (min-width:500px) and (max-width:600px ) {
+	.box{
+		grid-template-columns: 1fr 1fr;
+	}
+}
+@media (max-width:500px) {
+	.box{
+		grid-template-columns: 1fr;
+		align-items: center;
+  }
+}
+.global .social{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px;
+  padding-bottom: 0;
+  border-top: 1px solid #eee;
+  margin-top: 50px;
+}
+.global .social a{
+  font-size: 22px;
+  width: 45px;
+  height: 45px;
+  line-height: 39px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid #05ff05;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+  margin: 10px;
+  color: #fff;
+  opacity: 0.7;
+  transition: 0.3s ease-in-out;
+}
+.global .social a:hover{
+  opacity: 0.9;
+  box-shadow: 0 1px 3px 2px rgba(255, 255, 255, 0.9);
+}
+.global .copyright{
+  text-align: center;
+  padding-top: 24px;
+  font-weight: 500;
+  opacity: 0.8;
+  font-size: 16px;
+	color: white;
+}
+.global h6{
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+	color: white;
+}
+@media (max-width: 767px){
+	.social{
+      margin: 0 auto;
+    }
+}

@@ -1,0 +1,262 @@
+body{
+background-color:black;
+color: white;
+}
+.titan{
+  position: relative;
+
+margin-top: 20px;
+ width:1320px;
+ left: 5%;
+}
+
+h1{
+      font-family: 'Sacramento', cursive;
+}
+.marvellogo{
+  width: 150px;
+  height: 80px;
+  margin-top:0;
+  margin-bottom: 0;
+  margin-left: 7px;
+
+}
+hr{
+  margin: 1rem 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #0bd7eede;
+    border-top: 1px solid;
+    opacity: .25;
+}
+.firsthr{
+  margin: 0;
+  border: 0.5;
+}
+
+.navbar-brand{
+  padding: 0;
+  margin-right: 0;
+}
+.navbar{
+  padding-top: 0;
+  padding-bottom:2px;
+}
+.collapse{
+  padding-right: 90px;
+}
+#carouselExampleIndicators{
+data-intervel:"4000"
+}
+
+.container-fluid{
+    padding: 0 15%;
+}
+.fonts{
+  font-family: dancingstyle;
+}
+
+.ironmanimage{
+
+ width:350px;
+ height:420px;
+ position: relative;
+ left:23%;
+
+}
+.ironmanpara{
+  text-align: left;
+  position:relative;
+  top: 27%;
+  padding-bottom: 40px;
+
+}
+.captainamerica{
+
+
+left: 35%;
+  position: relative;
+ width: 300px;
+ height:390px;
+}
+.captainamericapara{
+
+position: relative;
+top:20%;
+
+padding-bottom: 20px;
+}
+.spiderman{
+position: relative;
+left: 30%;
+ width: 320px;
+padding-top: 30px;
+}
+.spidermanpara{
+
+    position:relative;
+    padding-bottom: 50px;
+    top: 30%;
+}
+.thor{
+position: relative;
+left: 40%;
+ height: 380px;
+ padding-bottom:20px;
+padding-top: 20px;
+}
+.thorpara{
+position: relative;
+top: 30%;
+padding-bottom: 40px;
+}
+.blackwidow{
+position: relative;
+ width: 420px;
+ height: 320px;
+ left: 110px;
+}
+.blackwidowpara{
+  position: relative;
+  top: 25%;
+  padding-bottom:30px;
+}
+.doctorstrange{
+  position: relative;
+left: 20%;
+ width: 380px;
+}
+.doctorstrangepara{
+  position: relative;
+top: 25%;
+  padding-bottom:13px;
+}
+.hulk{
+position: relative;
+ width: 360px;
+ left:30%;
+}
+.hulkpara{
+position: relative;
+top: 30%;
+  padding-bottom:25px;
+}
+.blackpanther{
+  width:370px;
+  padding-bottom:35px;
+padding-top: 20px;
+position: relative;
+left:25%;
+}
+.blackpantherpara{
+  position: relative;
+  top: 20%;
+    padding-bottom:45px;
+}
+.wanda{
+  width:400px;
+  height:340px;
+  position: relative;
+  left:18%;
+}
+.wandapara{
+  position: relative;
+  top: 20%;
+    padding-bottom:45px;
+}
+.hawkey{
+  width:300px;
+  height:325px;
+  position: relative;
+  left:30%;
+}
+.hawkeyepara{
+  position: relative;
+  top:25%;
+    padding-bottom:43px;
+}
+.captainmarvel{
+  width:305px;
+
+  position: relative;
+  left:30%;
+  padding-bottom: 20px;
+}
+.captainmarvelpara{
+position: relative;
+  top:27%;
+    padding-bottom:30px;
+}
+.antman{
+  width:330px;
+
+  position: relative;
+  left:40%;
+}
+.antmanpara{
+  position: relative;
+    top:20%;
+      padding-bottom:41px;
+}
+.vision{
+  width:450px;
+  position: relative;
+  left:13%;
+}
+.visionpara{
+  position: relative;
+    top:25%;
+      padding-bottom:37px;
+}
+
+
+
+
+
+.global .social{
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 40px;
+  padding-bottom: 0px;
+  border-top: 1px solid #eee;
+  margin-top: 50px;
+}
+.global .social a{
+  font-size: 22px;
+  width: 45px;
+  height: 45px;
+  line-height: 39px;
+  display: inline-block;
+  border-radius: 50%;
+  border: 2px solid #05ff05;
+  box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.4);
+  margin: 10px;
+  color: #fff;
+  opacity: 0.7;
+  transition: 0.3s ease-in-out;
+}
+.global .social a:hover{
+  opacity: 0.9;
+  box-shadow: 0 1px 3px 2px rgba(255, 255, 255, 0.9);
+}
+.global .copyright{
+  text-align: center;
+  padding-top: 24px;
+  font-weight: 500;
+  opacity: 0.8;
+  font-size: 16px;
+}
+.global h6{
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+@media (max-width: 767px){
+	.social{
+      margin: 0 auto;
+    }
+}
